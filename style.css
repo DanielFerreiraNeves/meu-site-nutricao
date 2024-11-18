@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #44c8c9;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.chamada {
+  background-color: #ff7f50;
+  color: white;
+}
+
+.chamada h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.chamada p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  padding: 15px 30px;
+  background-color: #3e6b32;
+  color: white;
+  font-size: 1.3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cta-btn:hover {
+  background-color: #f7d54a;
+}
+
+.sobre,
+.servicos,
+.resultados,
+.contato {
+  background-color: #f0f0f0;
+}
+
+.sobre h2,
+.servicos h2,
+.resultados h2,
+.contato h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #3e6b32;
+}
+
+.sobre p,
+.servicos ul,
+.resultados ul {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.servicos ul,
+.resultados ul {
+  list-style-type: disc;
+  text-align: left;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #7dbf4f;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #f7d54a;
+}
+
+footer {
+  background-color: #3e6b32;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
